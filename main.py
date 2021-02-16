@@ -28,7 +28,5 @@ class Practise(object):
 run = Practise()
 run.test_browser()
 
-def test_demo():
-    print("My name is Billa")
 
 
