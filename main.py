@@ -1,1 +1,1 @@
-print ("GITHUB")
+print ("PYCHARM")
