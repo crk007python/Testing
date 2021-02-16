@@ -19,7 +19,7 @@ class Practise(object):
         driver = webdriver.Chrome(executable_path="C:\Selenium Browser driver\chromedriver.exe")
         driver.get("https://www.google.com/")
         driver.maximize_window()
-        driver.find_element_by_css_selector("input[type='text']").send_keys("myname is billas ")
+        driver.find_element_by_css_selector("input[type='text']").send_keys("myname is billaaa ")
         driver.find_element_by_css_selector("input[type='text']").send_keys(Keys.ENTER)
 
         print(driver.title)
