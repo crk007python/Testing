@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-
+#import time
 class alerrt:
     def alertpopu():
         driver = webdriver.Chrome(executable_path="C:\Selenium Browser driver\chromedriver.exe")
